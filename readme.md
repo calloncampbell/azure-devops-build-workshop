@@ -14,7 +14,6 @@ Already have an account? [Sign in to Azure DevOps](https://go.microsoft.com/fwli
 
 ## References
 
-- [Azure DevOps](https://azure.microsoft.com/en-ca/services/devops/) overview
-- [Azure Pipelines](https://docs.microsoft.com/en-ca/azure/devops/pipelines/index?view=vsts) documentation
-- [Azure Artifacts](https://docs.microsoft.com/en-us/azure/devops/artifacts/?view=vsts) documentation
-- [YAML schema reference](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema)
+* [Azure DevOps](https://azure.microsoft.com/en-ca/services/devops/) overview
+* [Azure Pipelines](https://docs.microsoft.com/en-ca/azure/devops/pipelines/index?view=vsts) documentation
+* [Azure Artifacts](https://docs.microsoft.com/en-us/azure/devops/artifacts/?view=vsts) documentation

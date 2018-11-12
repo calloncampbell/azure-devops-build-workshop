@@ -51,7 +51,7 @@ For this tutorial we will be referencing an ASP.NET Core sample application from
 
    ![New pipeline source](../_img/new-pipeline-step7.png)
 
-1. Congratulations you've setup your first Azure Pipeline!
+Congratulations you've setup your first Azure Pipeline!
 
 ## Get the status badge
 
@@ -84,9 +84,3 @@ Back in Azure Pipelines, observe that a new build is queued. Its status might be
 ## Next steps
 
 You've just learned the basics of using Azure Pipelines. Now you're ready to further configure your pipeline to run tests, publish test results, create container images, or even deploy the app to a cloud service.
-
-You may also want to try creating a new pipeline and this time choose the default YAML definition and see how that experience is for configuration as code. 
-
-## Reference
-
-* [YAML schema reference](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema)
