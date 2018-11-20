@@ -1,11 +1,11 @@
-# Azure DevOps In Action
+# Azure DevOps in Action
 
 ## Objectives
 
 1. Signup for Azure DevOps account and create a project
-1. Create a new build pipeline
-1. Create a new release pipeline and deploy to Azure
-1. Create an artifacts feed
+1. Create a new build pipeline with continuous integration (CI)
+1. Create a new release pipeline with continuous deployment (CD) and deploy to Azure
+1. Create an artifacts feed and use in our build and release pipelines
 
 ### 
 Before you can create your first build pipeline, you need to have an active Azure account. If you don't already have an Azure account, [free accounts are available](https://azure.microsoft.com/free/).
