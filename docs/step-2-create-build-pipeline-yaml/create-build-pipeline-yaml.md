@@ -1,6 +1,6 @@
-# Create your first pipeline with YAML
+# Create your first build pipeline with YAML
 
-This is a step-by-step guide to using Azure Pipelines to build a GitHub repository.
+This is a step-by-step guide to using Azure Pipelines to build a GitHub repository using YAML.
 
 ## Prerequisites
 
@@ -21,11 +21,11 @@ For this tutorial we will be referencing an ASP.NET Core sample application from
 
 1. In your project, navigate to the **Pipelines** page. Then choose **New pipeline**.
 
-   ![New pipeline](../_img/new-pipeline.png)
+   ![New pipeline](../_img/build/new-pipeline.png)
 
 1. Walk through the steps of the wizard by first selecting GitHub as the location of your source code.
 
-   ![New pipeline source](../_img/new-pipeline-step1.png)
+   ![New pipeline source](../_img/build/new-pipeline-step1.png)
 
 1. For the second step, choose to Authorize with OAuth by selecting Authorize. You might be redirected to GitHub to sign in. Enter your GitHub credentials.
 
@@ -33,11 +33,11 @@ For this tutorial we will be referencing an ASP.NET Core sample application from
 
 1. For the third step, Azure Pipelines analyzes the code in your repository. If your repository already contains an `azure-pipelines.yml` file, which is the case for all sample repositories, then this step is skipped. Otherwise Azure Pipelines recommends a starter template based on the code in your repository.
 
-   ![New pipeline source](../_img/new-pipeline-yaml1.png)
+   ![New pipeline source](../_img/build/new-pipeline-yaml1.png)
 
 1. In the final step, you're shown the YAML file that will be used.
 
-   ![New pipeline source](../_img/new-pipeline-yaml2.png)
+   ![New pipeline source](../_img/build/new-pipeline-yaml2.png)
 
 1. Select **Save and run**. Choose the option to **Commit directly to the master branch**.
 
@@ -49,7 +49,7 @@ Congratulations you've setup your first Azure Pipeline using YAML!
 
 ## Next steps
 
-You've just learned the basics of using Azure Pipelines. Now you're ready to further configure your pipeline to run tests, publish test results, create container images, or even deploy the app to a cloud service.
+You've just learned the basics of using Azure Pipelines using YAML. Now you're ready to further configure your pipeline to run tests, publish test results, create container images, or even deploy the app to a cloud service.
 
 ## Reference
 
