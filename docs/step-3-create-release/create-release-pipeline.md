@@ -65,7 +65,7 @@ Now that our release pipeline is setup let's create our release.
 
    ![New release](../_img/release/new-release-step12.png)
 
-1. Now that your release is deployed, navigate to your Azure App service URL and verify the deployment.
+1. After the release is complete, navigate to your site running in Azure using the Web App URL `http://{web_app_name}.azurewebsites.net`, and verify its contents.
 
 ## Enable continuous deployment for your release
 
@@ -75,7 +75,7 @@ Now that our release pipeline is defined we want to run a deployment everytime a
 
    ![New release](../_img/release/new-release-step13.png)
 
-1. Now click on the **Save** button.
+1. Now click on the **Save** button. The next time you have a successful build, it will automatically be deployed to this environment.
 
 
 ## Next steps

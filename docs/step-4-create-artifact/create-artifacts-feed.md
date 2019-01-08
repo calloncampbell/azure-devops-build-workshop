@@ -63,10 +63,6 @@ Create and share Maven, npm, and NuGet packages from public and private sources 
 
 Keep every public source package you use—including packages from npmjs and nuget.org—safe in your feed where only you can delete it, and where it’s backed by the enterprise-grade Azure SLA.
 
-## Update your build pipeline to use your artifacts feed
-
-Not available at this time. Will demo it instead and then update the docs afterwards.
-
 ## Next steps
 
 Here you've learned how to setup an artifacts feed for your organization, and learned about upstream sources, and how you can use release views to mark your packages with quality of change.
